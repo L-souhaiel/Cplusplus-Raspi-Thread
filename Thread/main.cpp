@@ -10,6 +10,8 @@ using namespace std;
 pthread_mutex_t mutex;
 pthread_cond_t cond; 
 
+//this programm show how to manipulate Thread on Based linux OS. 
+
 void *workerThread(void *arg)
 {
     while(1)
